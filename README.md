@@ -3,7 +3,7 @@
 | 💬 | A collection of other useful polybar modules maintained by the community can be found [here](https://github.com/polybar/polybar-scripts). |
 |---|--------------------------------------|
 
-These polybar modules use the [Mullvad CLI](https://mullvad.net/help/how-use-mullvad-cli/) `mullvad` to display details about the VPN connection and the established tunnel and allow to control certain settings from the module without having to open the Mullvad GUI. This version requires a [Nerd font](https://www.nerdfonts.com/), a family of extended character sets. 
+These polybar modules use the [Mullvad CLI](https://mullvad.net/help/how-use-mullvad-cli/) `mullvad` to display details about the VPN connection and the established tunnel and allow to control certain settings from the module without having to open the Mullvad GUI. This version simplifies the text output to neatly report the status without extended information that may not be necessary (such as the exact tunnel location). It relies on characters typically included in [Nerd fonts](https://www.nerdfonts.com/), a family of extended character sets useful for many other polybar configurations.
 
 For a blocked connection, the tunnel protocol has to be toggled, as wireguard is not available for all locations.
 For an unknown tunnel status, the polybar module will display the error message.
