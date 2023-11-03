@@ -3,16 +3,9 @@
 | 💬 | A collection of other useful polybar modules maintained by the community can be found [here](https://github.com/polybar/polybar-scripts). |
 |---|--------------------------------------|
 
-These polybar modules use the [Mullvad CLI](https://mullvad.net/help/how-use-mullvad-cli/) `mullvad` to display details about the VPN connection and the established tunnel and allow to control certain settings from the module without having to open the Mullvad GUI.
-
-![connected  syd-au wg](./assets/screenshots/connected-australia-sydney-wireguard.png "polybar module screenshot connected")
-![connecting  gr ov](./assets/screenshots/connecting-greece-openvpn.png "polybar module screenshot connecting")
-![disconnected  at wg](./assets/screenshots/disconnected-austria-wireguard.png "polybar module screenshot disconnected")
-![blocked  al wg](./assets/screenshots/blocked-algeria-wireguard.png "polybar module screenshot blocked")
-![Tunnel status: Disconnecting...  ee wg](./assets/screenshots/disconnecting-error-estonia-wireguard.png "polybar module screenshot error")
+These polybar modules use the [Mullvad CLI](https://mullvad.net/help/how-use-mullvad-cli/) `mullvad` to display details about the VPN connection and the established tunnel and allow to control certain settings from the module without having to open the Mullvad GUI. This version requires a [Nerd font](https://www.nerdfonts.com/), a family of extended character sets. 
 
 For a blocked connection, the tunnel protocol has to be toggled, as wireguard is not available for all locations.
-
 For an unknown tunnel status, the polybar module will display the error message.
 
 ## Connection module
