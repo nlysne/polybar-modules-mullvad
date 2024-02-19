@@ -10,12 +10,15 @@ These polybar modules use the [Mullvad CLI](https://mullvad.net/help/how-use-mul
 *An example of the module when Mullvad is disconnected, placed to the right of the WiFi module.*
 
 ![Example for 'connected.'](assets/screenshots/conn.png?raw=true)
+
 *An example when Mullvad is connected.*
+
 
 For a blocked connection, the tunnel protocol has to be toggled, as wireguard is not available for all locations.
 For an unknown tunnel status, the polybar module will display the error message.
 
 ![Example for 'blocked.'](assets/screenshots/blocked.png?raw=true)
+
 *An example when Mullvad is blocked.*
 
 
